@@ -1,0 +1,26 @@
+{
+  "name": "input-tags-challenge",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest --environment jsdom --root src/"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "pinia": "^2.0.23",
+    "sass": "^1.56.1",
+    "vue": "^3.2.41",
+    "vue3-lottie": "^2.4.0"
+  },
+  "devDependencies": {
+    "@pinia/testing": "^0.0.14",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "@vue/test-utils": "^2.1.0",
+    "jsdom": "^20.0.1",
+    "miragejs": "^0.1.46",
+    "vite": "^3.1.8",
+    "vitest": "^0.24.3"
+  }
+}

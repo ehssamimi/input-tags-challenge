@@ -1,0 +1,39 @@
+@import "@/assets/_initial.scss";
+
+ .selected-tag {
+  display: flex;
+  flex-wrap: wrap;
+
+  &-item {
+    color: $Indigo;
+    background: $Snuff;
+    font-size: $px-12;
+    font-weight: 400;
+    line-height: $px-16;
+    padding: $px-2 $px-8;
+    margin-inline-end: $px-8;
+    margin-top:$px-8;
+    border-radius: $px-100;
+    cursor: pointer;
+    &:hover {
+      color: $BrickRed;
+      background: $Bizarre;
+
+    }
+  }
+}
+
+
+//.slide-fade-enter-active {
+//  transition: all 0.3s ease-out;
+//}
+//
+//.slide-fade-leave-active {
+//  transition: all 0.3s ease-in;
+//}
+//
+//.slide-fade-enter-from,
+//.slide-fade-leave-to {
+//  transform: translateY(-30px);
+//  opacity: 0;
+//}

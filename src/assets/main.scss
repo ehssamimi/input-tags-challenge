@@ -1,0 +1,12 @@
+// Noto sans implementation
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import "@/assets/_initial.scss";
+body {
+  background: var(--bg-main);
+  font-family: "Noto Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+}

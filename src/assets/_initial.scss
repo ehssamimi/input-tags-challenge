@@ -1,0 +1,52 @@
+
+
+$px-2: 0.125rem;
+$px-4: 0.25rem;
+$px-8: 0.5rem;
+$px-12: 0.75rem;
+$px-14: 0.875rem;
+$px-16: 1rem;
+$px-19: 1.188rem;
+$px-45: 2.813rem;
+$px-100: 6.25rem;
+
+
+
+
+
+
+$Indigo:#3e5bc4;
+$Snuff:#DDE1EE;
+$Bizarre:#F2E1E1;
+$BrickRed:#CA3B57;
+$FrenchGray:#BABFC7;
+$ShuttleGray:#5A6474;
+$Sun: #ffd994;
+
+
+
+:root {
+  --animate-duration: 500ms;
+}
+
+[data-theme="dark"] {
+
+  --bg-main: #1e242a;
+  --bg-color1:#121416 ;
+  --bg-color2:#121a1c;
+  --font-color: #f4f4f4;
+  --border-color: #f4f4f4;
+  --input-color: #d2d1d1;
+  --caret-color: #bbbbbb;
+  --border-input: #111111
+}
+[data-theme="light"] {
+  --bg-main:#F3F3F3;
+  --bg-color1: #fff;
+  --bg-color2: #f4f4f4;
+  --font-color: #121416;
+  --border-color: #f4f4f4;
+  --input-color:#434343;
+  --caret-color: #4f4f4f;
+  --border-input:#f8f8f8
+}
