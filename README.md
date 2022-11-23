@@ -2,11 +2,11 @@
  
 This template is a challenge to build tags using input
 Technologies used in this exercise are [vue 3](https://vuejs.org/),[Mirage.JS](https://miragejs.com/) ,[Pinia](https://pinia.vuejs.org/),[Sass](https://sass-lang.com/),[vitest](https://vitest.dev/),..
- should help get you started developing with Vue 3 in Vite.
+ read thems can helpful.
 
  
  ## Working Demo:
-You can find out the working demo [here](https://input-tags-challenge.vercel.app/)
+You can find out the working demo [Input-tags-ehsan-samimi](https://input-tags-challenge.vercel.app/)
 
  i use to worked with sass and try to implement BEM cunstractor also this proaject developed in both dark and light mode :
  Light Mode:             
@@ -17,14 +17,14 @@ DarkMode
 
 ![dark mode](https://user-images.githubusercontent.com/47100310/203560744-491004dc-f22f-45fe-8533-5a88ae110f89.png)
 
- ## State manager:
+## State manager:
  As viue suggestion this project  used to implement  [Pinia](https://pinia.vuejs.org/) for state managering and separate layer view and domain 
 
 ## Mock Server:
 This project is used to  [Mirage.JS](https://miragejs.com/) to fetch first data 
 
 
-## moreover
+## Moreover
 this project have littele moreover feature 
 *add hint banner to press enter or , for add tag 
 *removed tage after clicked on each tags  
